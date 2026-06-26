@@ -1,0 +1,19 @@
+[project]
+name = "ascii-diskmap"
+version = "0.1.0"
+description = "ASCII curses disk usage mapper"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "wetair1" }]
+keywords = ["ascii", "curses", "terminal", "tui", "disk"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Environment :: Console :: Curses",
+  "Operating System :: POSIX :: Linux",
+]
+dependencies = []
+
+[tool.ascii-diskmap]
+entrypoint = "main.py"
+stdlib_only = true
